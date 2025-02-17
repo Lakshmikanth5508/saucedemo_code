@@ -13,7 +13,7 @@ import java.util.List;
 
 public class Products {
     public static void main(String[] args) {
-        // Set up WebDriver (Update the path to your chromedriver)
+        
         //System.setProperty("webdriver.chrome.driver", "C:\\path\\to\\chromedriver.exe");
         WebDriverManager.chromedriver().setup();
         WebDriver driver = new ChromeDriver();
